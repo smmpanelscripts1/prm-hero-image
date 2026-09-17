@@ -1,0 +1,47 @@
+.HeroImageAdmin-preview {
+  width: 100%;
+  height: 168px;
+  margin: 12px 0 18px;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  background: #111;
+  position: relative;
+}
+
+.HeroImageAdmin-preview img,
+.HeroImageAdmin-preview-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.HeroImageAdmin-preview-dim {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  pointer-events: none;
+}
+
+.HeroImageAdmin-preview-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--muted-color);
+}
+
+.HeroImageAdmin-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.HeroImageAdmin-file {
+  display: none;
+}
+
+.HeroImageAdmin-overlay {
+  width: 220px;
+}

@@ -1,0 +1,26 @@
+{
+    "name": "prm/hero-image",
+    "description": "Replace the welcome banner with an admin-uploaded image, and let permitted groups upload a profile cover.",
+    "type": "flarum-extension",
+    "version": "0.1.0",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prm\\HeroImage\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Hero Image",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-image",
+                "backgroundColor": "#1a4a63",
+                "color": "#fff"
+            }
+        }
+    }
+}

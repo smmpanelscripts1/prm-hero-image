@@ -1,0 +1,18 @@
+prm-hero-image:
+  admin:
+    title: Ana sayfa görseli
+    help: Karşılama yazısının yerine aynı boyutta bir görsel gösterilir. Üzerine hafif karartma uygulanır.
+    profile_help: Kullanıcıların kendi profil kapak görselini değiştirmesi İzinler sekmesinden gruplara açılır. Yüklenen görseller sunucuda yeniden kodlanır.
+    upload_label: Görsel
+    upload_help: PNG, JPG, GIF veya WEBP. En fazla 3 MB. Geniş yatay görsel en iyi durur.
+    upload_button: Görsel yükle
+    remove_button: Görseli kaldır
+    overlay_label: Karartma
+    overlay_help: Yüksek değer görseli daha koyu yapar.
+    preview_empty: Henüz görsel yok.
+    saved: Kaydedildi
+    permissions:
+      profile_hero_label: Profil kapak görseli yükleme
+  forum:
+    upload: Kapak görseli yükle
+    remove: Kapak görselini kaldır
