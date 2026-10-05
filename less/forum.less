@@ -1,0 +1,51 @@
+.HeroImage {
+  position: relative;
+  display: block !important;
+  height: 118px;
+  overflow: hidden;
+  background: #111;
+  text-align: left;
+}
+
+.HeroImage .container,
+.HeroImage .Hero-close,
+.HeroImage .Hero-title,
+.HeroImage .Hero-subtitle {
+  display: none;
+}
+
+.HeroImage-media,
+.HeroImage-dim {
+  position: absolute;
+  inset: 0;
+}
+
+.HeroImage-media {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HeroImage-dim {
+  background: #000;
+  pointer-events: none;
+}
+
+@media @tablet-up {
+  .HeroImage {
+    height: 168px;
+  }
+}
+
+.UserCard.UserHero,
+.XfUserCard-banner {
+  position: relative;
+}
+
+.XfUserCard-banner.has-profile-hero,
+.UserCard.UserHero.has-profile-hero {
+  background-color: #111 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
